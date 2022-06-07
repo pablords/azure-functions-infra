@@ -1,0 +1,9 @@
+- name: Get install azure-functions
+  shell:  |
+    wget https://github.com/Azure/azure-functions-core-tools/releases/download/3.0.4585/Azure.Functions.Cli.linux-x64.3.0.4585.zip
+    unzip -d azure-functions-cli Azure.Functions.Cli.linux-x64.*.zip
+    cd azure-functions-cli
+    chmod +x func
+    chmod +x gozip
+    ./func
+

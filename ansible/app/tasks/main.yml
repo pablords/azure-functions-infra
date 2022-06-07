@@ -1,0 +1,8 @@
+---
+- name: Start App
+  shell: |
+    cd /home/vagrant/app
+    chmod +x start.sh
+    ./start.sh
+  args:
+    executable: /bin/bash
