@@ -7,3 +7,7 @@
     chmod +x gozip
     ./func
 
+- name: Get install Nodejs 14
+  shell: | 
+    curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+    sudo apt-get install -y nodejs

@@ -1,2 +1,4 @@
 .vagrant
 *.log
+azure-functions-cli
+*.zip
